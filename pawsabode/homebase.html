@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>PawsAbode</title>
+
+</head>
+
+<body>
+  {%if request.user.is_authenticated%}
+    {% include "pawsabode/customer_navbar.html" %}
+  {%else%}
+    {% include "pawsabode/navbar.html" %}
+  {%endif%}
+
+
+  {%block content%}
+
+  {%endblock content%}
+
+  
+</body>
+{% include "pawsabode/footer.html" %}
+</html>
