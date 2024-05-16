@@ -35,7 +35,7 @@ Other dependencies listed in requirements.txt
 
 1. Clone the repository:
    bash
-    git clone https://github.com/yourusername/pawsabode.git
+    git clone https://github.com/adhprakriti/Collab-Pet-Adoption
    
 2. Navigate to the project directory:
    bash
